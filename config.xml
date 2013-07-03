@@ -8,7 +8,7 @@
         TSI11 - Jackson Lessa, Jakeline Rodrigues
     </author>
 	<content src="index.html"/>
-	<icon src="icon.jpg" width="256" height="256" />
+	<icon src="icon.png" width="256" height="256" />
 	
     <gap:splash gap:platform="android" height="480" src="res/screen/android_hdpi_landscape.png" width="800" />
     <gap:splash gap:platform="android" height="800" src="res/screen/android_hdpi_portrait.png" width="480" />

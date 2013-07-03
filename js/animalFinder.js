@@ -131,7 +131,7 @@
 						var len = rs.rows.length;
 						
 						for (var i=0; i<len; i++){
-						  $("#table-of-animalfind").append("<tr><td>"+rs.rows.item(i).date+"</td><td>"+rs.rows.item(i).texto+"</td><td><a href='#dialogPage' data-rel='dialog'  data-role='button' data-mini='true' data-icon='search'  data-iconpos='notext' data-id='"+rs.rows.item(i).id+"'>View</a><a href='#dialogPage' data-rel='dialog'  data-role='button' data-icon='delete' data-action='delete' data-iconpos='notext' data-id='"+rs.rows.item(i).id+"'>Delete</a></td></tr>");
+						  $("#table-of-animalfind").append("<tr><td>"+rs.rows.item(i).date+"</td><td>"+rs.rows.item(i).texto+"</td><td><a href='#dialogPage' data-rel='dialog'  data-role='button' data-mini='true' data-icon='search'  data-iconpos='notext' data-id='"+rs.rows.item(i).id+"'>Vizualizar</a><a href='#dialogPage' data-rel='dialog'  data-role='button' data-icon='delete' data-action='delete' data-iconpos='notext' data-id='"+rs.rows.item(i).id+"'>Deletar</a></td></tr>");
 						}
 					  }, errorCB);
 	  }, errorCB, successCB);
@@ -177,7 +177,7 @@
 				dbInit(tx);
 				tx.executeSql(statements_);
 			  }, errorCB, successCB);
-			  alert('Item deleted!');
+			  alert('Item deletado!');
 			}
 			document.location   =   'index.html';
 		  }
