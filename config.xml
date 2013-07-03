@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.tsi11.final_project.jackson_lessa" version="3.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Falcon Finder</name>
+    <name>Animal Finder</name>
     <description>
-       Falcon Finder Project
+       Animal Finder Project
     </description>
     <author email="jacksonj.lessa@gmail.com">
         TSI11 - Jackson Lessa, Jakeline Rodrigues
